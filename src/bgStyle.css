@@ -1,0 +1,38 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+div {
+  background-image: url("../images/junaid.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h1.mainHeading,
+h1.withOpacity,
+h1.withRgbaOpacity {
+  margin-top: 10px;
+}
+
+h1.mainHeading {
+  background-color: lightcoral;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  padding: 10px 0px;
+}
+
+/* transparency effect also EFFECTS children */
+h1.withOpacity {
+  background-color: lightcoral;
+  opacity: 0.1;
+}
+
+/* Transparancy effects only background-color */
+h1.withRgbaOpacity {
+  background-color: rgba(240, 128, 128, 0.1);
+  /* margin-top: 10px; */
+}

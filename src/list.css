@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h1 {
+  background-color: linen;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid darkgoldenrod;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkred;
+}
+
+ol {
+  background-color: #cce5ff;
+  padding: 20px;
+}
+
+ol li {
+  background-color: linen;
+  margin: 5px;
+  padding: 5px;
+}
+
+ul {
+  margin-left: 30px;
+}
+
+ul.square {
+  list-style-type: square;
+}
+
+ul.positionInside {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+ul.positionOutside {
+  list-style-type: circle;
+  list-style-position: outside;
+}

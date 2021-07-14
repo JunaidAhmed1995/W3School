@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1.mainHeading {
+  font-family: "Sofia", sans-serif;
+  background-color: lightcoral;
+  border: 3px solid black;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 50%;
+  height: 100px;
+  outline: 5px solid lightsalmon;
+  /*Above are previous CSS properties we learned
+  * Now below are new properties we learn Insha-Allah
+  */
+  color: white;
+  text-align: center;
+}
+
+.justify {
+  background: lightskyblue;
+  border: 2px solid black;
+  height: 350px;
+  width: 500px;
+  margin: 10px;
+  padding: 5px;
+  /*new property*/
+  text-align: justify;
+}
+
+.verticalAlign {
+  background-color: linen;
+  border: 3px solid brown;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.setVertical {
+  color: darkgoldenrod;
+  vertical-align: sub;
+}
+
+.textDecorationOverLine,
+.textDecorationLineThrough,
+.textDecorationUnderLine {
+  background-color: lavenderblush;
+  border: 2px solid lightslategray;
+  margin: 10px;
+  padding: 10px;
+  color: darkred;
+  text-align: center;
+}
+
+.textDecorationOverLine {
+  text-decoration: overline;
+}
+
+.textDecorationLineThrough {
+  text-decoration: line-through;
+}
+
+.textDecorationUnderLine {
+  text-decoration: underline;
+}
+
+.textTransform {
+  background-color: lightpink;
+  border: 1px solid darkgreen;
+  margin: 15px;
+  padding: 15px;
+  color: maroon;
+  text-align: right;
+  text-decoration: overline;
+  text-transform: uppercase;
+}
+
+.textTransform > span {
+  text-transform: capitalize;
+}
+
+.textSpacing {
+  background-color: black;
+  border: 1px solid whitesmoke;
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  text-align: justify;
+  text-decoration: line-through;
+  text-transform: uppercase;
+  text-indent: 50px;
+}
+
+h3.textSpacing {
+  text-decoration: none;
+  text-align: center;
+  text-indent: 0px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  text-shadow: 2px 2px 2px lightgrey;
+}
+
+p.lineHeight {
+  text-decoration: none;
+  text-transform: lowercase;
+  line-height: 2;
+  background-color: lavenderblush;
+  color: darkgoldenrod;
+  border: 1px solid grey;
+}

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello Guys!</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Refresh document every 30 seconds -->
+    <!-- <meta http-equiv="refresh" content="30" /> -->
+    <!-- this is internal CSS -->
+    <style>
+      pre {
+        color: darkred;
+        background-color: lightcoral;
+      }
+      blockquote {
+        color: darkslategrey;
+        background-color: lightpink;
+      }
+      address {
+        color: darkslateblue;
+        background-color: lightgreen;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid dimgray;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 10px;
+      }
+      tr:nth-child(odd) {
+        background-color: lightgrey;
+      }
+      th {
+        color: white;
+        background-color: black;
+      }
+      a:link#link {
+        color: whitesmoke;
+        background-color: rgba(255, 0, 0, 0.3);
+        padding: 10px;
+        display: inline-block;
+        margin-top: 10px;
+        text-decoration: none;
+      }
+      a:visited#link {
+        color: darkkhaki;
+        background-color: rgba(0, 255, 0, 0.7);
+        padding: 10px;
+        display: inline-block;
+        margin-top: 10px;
+        text-decoration: none;
+      }
+      a:hover#link {
+        color: whitesmoke;
+        background-color: red;
+      }
+      a:active#link {
+        background-color: saddlebrown;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="H1" style="color: MediumseaGreen">Heading-1</h1>
+    <p style="color: tomato">This is first paragragh</p>
+    <p style="font-family: Courier">
+      This is second paragragh with Courier font-family
+    </p>
+    <p style="font-family: Verdana">
+      This paragragh contains a lot of lines in the source code, but the browser
+      ignores it. font-family is Verdana.
+    </p>
+    <!-- <hr /> draw a horizental line-->
+    <hr />
+    <p>
+      This paragragh contains a lot of spaces in the source code, but the
+      browser ignores it.
+    </p>
+    <p>
+      This is <br />
+      a paragragh <br />
+      with line breaks.
+    </p>
+    <pre style="text-align: center">
+        My bonnie lies over the ocean.
+        My bonnie lies over the sea.
+        My bonnie lies over the ocean.
+        Oh, bring back my bonnnie to me.
+    </pre>
+    <b>this text is bold</b>
+    <strong>this text is important</strong>
+    <i>this text is italic</i>
+    <em>this text is emphasized</em>
+    <small>this is some smaller text</small>
+    <mark>this is marked text</mark>
+    <del>this is deleted text</del>
+    <ins>this is inserted text</ins>
+    <sub>sub-script</sub>
+    <sup>super-script</sup>
+    <p>here is quote from WWF website:</p>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+      For 50 years, WWF has been protecting the future of nature. The world's
+      leading conservation organization, WWF works in 100 countries and is
+      supported by 1.2 million members in the United States and close to 5
+      million globally.
+    </blockquote>
+    <p>
+      WWf's goal is to:
+      <q>Build a future where people live in harmony with nature</q>
+    </p>
+    <abbr title="Hyper Text Markup Language">HTML</abbr>
+    <abbr title="Cascading Style Sheet">CSS</abbr>
+    <abbr title="Java-Script">JS</abbr>
+    <address>
+      written by Junaid Ahmed <br />
+      visit us at: <br />
+      junaid@donesol.co.uk <br />
+      H.no-41, Road-T, Block-G <br />
+      Naval Anchorage Islamabad
+    </address>
+    <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+    <bdo dir="rtl">this text is written from Right to Left</bdo>
+    <a href="http://www.google.com" target="_blank">go to google homepage</a>
+    <a href="http://www.yahoo.com" target="_blank">
+      <img
+        src="../images/junaid.jpg"
+        width="20px"
+        height="20px"
+        alt="this is an image"
+    /></a>
+    <a href="mailto:junaid@donesol.co.uk">Email me</a>
+    <a href="#H1">jump to Heading 1</a>
+    <img src="../images/juaid1.jpeg" alt="picture of a person" />
+    <p
+      style="
+        background-image: url('../images/junaid.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        color: white;
+      "
+    >
+      Hello guys, i am learning HTML, CSS, and Java-Script
+    </p>
+    <table>
+      <caption>
+        Personal Details
+      </caption>
+      <tr>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Email</th>
+        <th colspan="2">Phone #</th>
+      </tr>
+      <tr>
+        <td>Junaid</td>
+        <td>Male</td>
+        <td><a href="#">junaid@donesol.co.uk</a></td>
+        <td>03001234567</td>
+        <td>03001234567</td>
+      </tr>
+      <tr>
+        <td>Mehwish</td>
+        <td>Female</td>
+        <td><a href="#">mehwish@donesol.co.uk</a></td>
+        <td>03001234567</td>
+        <td>-----------</td>
+      </tr>
+      <tr>
+        <td>Mr Canada</td>
+        <td>Male</td>
+        <td><a href="#">mrCanada@donesol.co.uk</a></td>
+        <td>**********</td>
+        <td>**********</td>
+      </tr>
+      <tr>
+        <td>Madam</td>
+        <td>Female</td>
+        <td><a href="#">madam@donesol.co.uk</a></td>
+        <td>03001234567</td>
+        <td>03001234567</td>
+      </tr>
+    </table>
+    <!-- this link is style as a button 
+    styling is defined above in the style-tag in head-section
+    -->
+    <a href="#" id="link">I'm a Link</a>
+    <ul>
+      <li>Milk</li>
+      <li>Coffee</li>
+      <li>Juice</li>
+      <li>
+        Tea
+        <ul>
+          <li>
+            Black Tea
+            <ul>
+              <li>Pink Tea</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <ol>
+      <li>Milk</li>
+      <li>Coffee</li>
+      <li>Juice</li>
+    </ol>
+    <dl>
+      <dt>CSS</dt>
+      <dd>Cascading Style Sheet</dd>
+      <dt>HTML</dt>
+      <dd>Hyper Text Markup Language</dd>
+    </dl>
+    <iframe src="index.html" title="practice website" name="myFrame"></iframe>
+    <h2>Computer Code</h2>
+    <code>
+      x=1;<br />
+      y=2;<br />
+      z=3;<br />
+    </code>
+    <p>Save the document by pressing <kdb>Ctrl + S</kdb></p>
+    <p><samp>File not found. Press F1 to continue</samp></p>
+    <p>
+      Area of Triangle is 1/2 x <var>b</var> x <var>h</var> where
+      <var>b</var> is the <b>base</b> and <var>h</var> is the <b>height</b>
+    </p>
+    <details>
+      <summary>Hide and Show on demand</summary>
+      <p>
+        my name is junaid ahmed. my father name is ahmed hussain. my mother name
+        is robina kousar. my wife name is mishi. i'll become a dad in few months
+        Insha-Allah. i am 26 years old.
+      </p>
+    </details>
+    <p>
+      office timings are <time>09:00 a.m.</time> to <time>07:00 p.m.</time> five
+      days a week
+    </p>
+    <p style="font-size: 50px">
+      &#128512; &#128513; &#128514; &#128515; &#128516; &#128517; &#128518;
+      &#128519; &#128520;
+    </p>
+    <form>
+      <fieldset>
+        <legend>This is Legend of Fieldset</legend>
+        <br />
+        <label for="fName">First Name: </label>
+        <input type="text" id="fName" name="fName" />&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="lName">Last Name: </label>
+        <input type="text" id="lName" name="lName" /> <br />
+
+        <br />
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label> <br />
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+        <br />
+        <p>Favourite Hobbies?</p>
+        <input type="checkbox" id="wm" name="wm" value="wm" />
+        <label for="wm">Watching Movies</label> <br />
+        <input type="checkbox" id="g" name="g" value="g" />
+        <label for="g">Gardening</label> <br />
+        <input type="checkbox" id="rb" name="rb" value="rb" />
+        <label for="rb">Reading Books</label>
+      </fieldset>
+    </form>
+    <form>
+      <fieldset>
+        <legend>Sign-in</legend>
+        <label for="un">Username: </label>
+        <input type="text" id="un" name="un" />
+        <br />
+        <br />
+        <label for="pwd">Password:</label>
+        <input type="password" id="pwd" name="pwd" />
+      </fieldset>
+    </form>
+  </body>
+</html>
